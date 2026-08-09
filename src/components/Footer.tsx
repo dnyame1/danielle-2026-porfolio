@@ -28,6 +28,12 @@ const Footer = () => {
             </div>
             <div className="text-sm" style={{ color: isDarkMode ? themeColors.colors.white : themeColors.colors.pink[700] }}>
               © {currentYear} Danielle Nyame. All rights reserved.
+              <div className="text-xs mt-1" style={{ color: 'rgba(255,255,255,0.35)' }}>
+  Built & customized by Danielle Nyame · Template by{' '}
+  <a href="https://github.com/cupidbity/portfolio-template" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+    cupidbity
+  </a>
+</div>
             </div>
           </div>
 
